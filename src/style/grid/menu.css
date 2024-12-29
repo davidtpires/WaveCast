@@ -1,0 +1,10 @@
+.menu-lateral {
+    display: grid;
+    /* Organizar elementos em linha */
+    grid-template-rows: auto auto auto 1fr;
+}
+
+.menu-lateral__logo {
+    /* Alinhar na horizontal */
+    justify-self: center;
+}
