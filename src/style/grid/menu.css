@@ -1,7 +1,10 @@
 .menu-lateral {
     display: grid;
     /* Organizar elementos em linha */
-    grid-template-rows: auto auto auto 1fr;
+    /* grid-template-rows: auto auto auto 1fr; */
+    grid-template-rows: repeat(3, auto) 1fr;
+    /* Espaçamento entre linhas */
+    row-gap: 2rem;
 }
 
 .menu-lateral__logo {

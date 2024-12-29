@@ -1,0 +1,10 @@
+.secao {
+    display: grid;
+    /* Alinhar itens para parte de baixo */
+    align-items: end;
+    row-gap: 2rem;
+}
+
+.secao-horizontal, .secao-vertical{
+    grid-template-rows: 70px auto;
+}
