@@ -8,3 +8,10 @@
 .secao-horizontal, .secao-vertical{
     grid-template-rows: 70px auto;
 }
+
+.secao-horizontal .secao__cartoes {
+    display: grid;
+    /* Aproveitar largura total dos conteiners */
+    grid-template-columns: repeat(auto-fit, minmax(min(80%/2, max(350px, 80%/3)), 1fr));
+    gap: 1.25rem;
+}
